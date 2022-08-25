@@ -6,10 +6,8 @@ function setup(){
         apiKey: "AIzaSyBKS71W1WbRjnDW3whpAotUT217xRcv_CY",
         authDomain: "phonectrl-b01b8.firebaseapp.com",
         projectId: "phonectrl-b01b8",
-        storageBucket: "phonectrl-b01b8.appspot.com",
-        messagingSenderId: "765246585907",
-        appId: "1:765246585907:web:5275d48b39a865bb02f746",
-        measurementId: "G-MFZ6PTPXGQ"
+        storageBucket: "",
+        messagingSenderId: "765246585907"
     };
 
     firebase.initializeApp(config);

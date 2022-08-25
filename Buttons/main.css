@@ -1,0 +1,72 @@
+
+* {
+  touch-action: manipulation;
+}
+
+body {
+  background-color: #f1f3f6;
+}
+
+::selection {
+  background-color: none;
+}
+.wrapper {
+  margin: auto auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+  width: 500px;
+  height:500px;
+  margin-top: 10vw;
+}
+
+
+.cta {
+  border-radius: 5%;
+  width: 100%;
+  height: 100%;
+
+  border: none;
+  background-position: center;
+  background-repeat: no-repeat;
+  outline: none;
+  box-shadow: inset 0 0 15px rgba(55, 84, 170, 0),
+    inset 0 0 20px rgba(255, 255, 255, 0), 7px 7px 15px rgba(55, 84, 170, 0.15),
+    -7px -7px 20px white, inset 0px 0px 4px rgba(255, 255, 255, 0.2);
+  transition: box-shadow 399ms ease-in-out;
+  background-size: 69%;
+}
+
+.cta:hover {
+    opacity: 0.5;
+  cursor: pointer;
+  box-shadow: inset 7px 7px 15px rgba(55, 84, 170, 0.15),
+    inset -7px -7px 20px white, 0px 0px 4px rgba(255, 255, 255, 0.2);
+}
+
+
+
+.up{
+  grid-row: 1;
+  grid-column: 2;
+  background-image: url("assets/arrow-up.png");
+}
+
+.down{  
+  grid-row: 3;
+  grid-column: 2;
+  background-image: url("assets/arrow-down.png");
+}
+
+.left{ 
+  grid-row: 2;
+  grid-column: 1;
+  background-image: url("assets/arrow-left.png");
+}
+
+.right{ 
+  grid-row: 2;
+  grid-column: 3;
+  background-image: url("assets/arrow-right.png");
+}
+

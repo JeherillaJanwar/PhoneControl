@@ -5,6 +5,7 @@ function setup(){
     var config = {
         apiKey: "AIzaSyBKS71W1WbRjnDW3whpAotUT217xRcv_CY",
         authDomain: "phonectrl-b01b8.firebaseapp.com",
+        databaseURL: "https://phonectrl-b01b8.firebaseio.com",
         projectId: "phonectrl-b01b8",
         storageBucket: "",
         messagingSenderId: "765246585907"

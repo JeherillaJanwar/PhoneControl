@@ -1,0 +1,98 @@
+* {
+    padding: 0px;
+    margin: 0px;
+
+  }
+  body {
+    background: #f1f2ec;
+    font-family: "Ubuntu", sans-serif;
+    color: #e9f0f7;
+    border-radius: 3px;
+    padding: 8px;
+    font-size: 1rem;
+  }
+  .closebtn {
+    margin-left: 15px;
+    color: white;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    transition: 0.3s;
+  }
+  .closebtn:hover {
+    cursor: pointer;
+    color: black;
+  }
+  .alert {
+    width: 60%;
+    font-size: 20px;
+    text-align: center;
+    display: block;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #a340ff;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+
+  }
+canvas {
+    cursor: pointer;
+    margin-top: 5vh;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+        border-radius: 10px;
+
+}
+
+.darkmode {
+    top: 20px;
+    margin-left: 25px;
+}
+  
+button,
+#darkbtn {
+    background: #161616fd;
+    border-radius: 50%;
+    background-image: url("moon.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 40px;
+    height: 40px;
+    position: sticky;
+    margin-top: 20px;
+    margin-left: -5px;
+    font-size: 13px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.25);
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+    animation: cubic-bezier(1, -0.28, 0.735, 0.045);
+}
+  
+button:hover {
+    -ms-transform: rotate(-45deg); /* IE 9 */
+    transform: rotate(-45deg);
+    opacity: 0.75;
+}
+  
+button:active {
+    -ms-transform: rotate(-360deg); /* IE 9 */
+    transform: rotate(-360deg);
+}
+  
+
+a {
+    color: rgb(0, 174, 255);
+    transition: 0.3s
+}
+
+a:hover{
+    background-color: rgba(0, 174, 255, 0.2);
+    padding: 5px;
+}

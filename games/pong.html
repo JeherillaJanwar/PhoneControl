@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>webApp</title>
+    <link rel="stylesheet" href="pong.css">
+    <script src = 'pong-game.js'></script>
+    <!-- Adding p5 library -->
+    <script src="../p5/p5.js"></script>
+    <!-- loading firebase database -->
+    <script src="https://www.gstatic.com/firebasejs/5.8.6/firebase.js"></script>
+<!-- pong game -->
+</head>
+<body>
+  <body id="body">
+    <span class="darkmode">
+        <button onclick="toggleDarkMode()" id="darkbtn"></button>
+      </span>
+      <div class="alert">
+        <span class="closebtn" onclick="this.parentElement.style.display='none'"
+          >&times;</span>
+        Use the <a href="../Joystick/joystick.html" target="_blank">Joystick Controller</a> to move the bar.
+      </div>
+      <div class="alert">
+        <span class="closebtn" onclick="this.parentElement.style.display='none'"
+          >&times;</span>
+        Tip: Don't let the ball touch the ground.
+      </div>
+
+    <div id="canvasParent"></div>
+</body>
+</body>
+</html>

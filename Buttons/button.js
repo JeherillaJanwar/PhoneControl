@@ -3,12 +3,12 @@ let database;
 
 function setup(){
     var config = {
-        apiKey: "AIzaSyDVeRD0P145hETu39Ryh4HM8rvlTSj4Kos",
-        authDomain: "try2-70357.firebaseapp.com",
-        databaseURL: "https://try2-70357.firebaseio.com",
-        projectId: "try2-70357",
+        apiKey: "AIzaSyBKS71W1WbRjnDW3whpAotUT217xRcv_CY",
+        authDomain: "phonectrl-b01b8.firebaseapp.com",
+        databaseURL: "https://phonectrl.firebaseio.com",
+        projectId: "phonectrl-b01b8",
         storageBucket: "",
-        messagingSenderId: "99106327684"
+        messagingSenderId: "765246585907"
     };
 
     firebase.initializeApp(config);

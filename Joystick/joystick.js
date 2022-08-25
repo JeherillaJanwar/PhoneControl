@@ -19,7 +19,7 @@ function setup(){
     y = height/2;
     sizeC = width/5;
     var config = {
-        apiKey: "AIzaSyBTWl8Iw3YbsEP0daerURQcKwZF5lPAung",
+        apiKey: "AIzaSyBSGlboijsMh_XAq8AhtjQlabfFvQQjdSY",
         authDomain: "phonectrl-3a20f.firebaseapp.com",
         databaseURL: "https://phonectrl-3a20f.firebaseio.com",
         projectId: "phonectrl-3a20f",

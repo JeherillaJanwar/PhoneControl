@@ -22,7 +22,7 @@ function setup(){
         apiKey: "AIzaSyBy9bA_kz9QJ6x-BUvEzJS-q1AhavbIX7o",
         authDomain: "ctrl-e5cb6.firebaseapp.com",
         projectId: "ctrl-e5cb6",
-        databaseURL: "https://ctrl-35cb6.firebaseio.com",
+        databaseURL: "https://ctrl-e5cb6-default-rtdb.firebaseio.com/",
         storageBucket: "",
         messagingSenderId: "792254185253",
         };

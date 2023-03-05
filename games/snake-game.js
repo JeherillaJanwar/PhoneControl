@@ -13,14 +13,14 @@ function setup() {
   frameRate (7);
   pickLocation();
 
-  let config = { 
-     apiKey: "AIzaSyDVeRD0P145hETu39Ryh4HM8rvlTSj4Kos",
-     authDomain: "try2-70357.firebaseapp.com",
-     databaseURL: "https://try2-70357.firebaseio.com",
-     projectId: "try2-70357",
-     storageBucket: "",
-     messagingSenderId: "99106327684" 
-    };
+  let config = {
+    apiKey: "AIzaSyDI-Yvcsy2fDXP-WIzTyWuIUnJWQZbbir8",
+    authDomain: "just-built.firebaseapp.com",
+    databaseURL: "https://just-built-default-rtdb.firebaseio.com",
+    projectId: "just-built",
+    storageBucket: "",
+    messagingSenderId: "890321614965"
+};
 
 firebase.initializeApp(config);
 database = firebase.database();

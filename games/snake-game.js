@@ -14,13 +14,13 @@ function setup() {
   pickLocation();
 
   let config = {
-    apiKey: "AIzaSyDI-Yvcsy2fDXP-WIzTyWuIUnJWQZbbir8",
-    authDomain: "just-built.firebaseapp.com",
-    databaseURL: "https://just-built-default-rtdb.firebaseio.com",
-    projectId: "just-built",
+    apiKey: "AIzaSyAsmPDo7Ro1poiojuwzt1c5eX0VEfDk06I",
+    authDomain: "phonecontrol-b621f.firebaseapp.com",
+    databaseURL: "https://phonecontrol-b621f-default-rtdb.firebaseio.com",
+    projectId: "phonecontrol-b621f",
     storageBucket: "",
-    messagingSenderId: "890321614965"
-};
+    messagingSenderId: "539323362345",
+  };
 
 firebase.initializeApp(config);
 database = firebase.database();
